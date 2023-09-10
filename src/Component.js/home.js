@@ -12,7 +12,7 @@ export default function Home(){
             </div>
             <div className="home-banner container">
                 <div className="row align-items-center h-100">
-                    <div className="col-6 home-banner-content">
+                    <div className="col-12 col-md-6 home-banner-content">
                         <h1>Create your unique QR<br/>
                              code online for free.</h1>
                         <p>
@@ -20,7 +20,7 @@ export default function Home(){
                         </p>
                         <button className="home-create-btn" onClick={()=>navigate("/qr/generator")}>Create your QR code now</button>
                     </div>
-                    <div className="col-6 home-banner-image-container">
+                    <div className="col-12 col-md-6 home-banner-image-container">
                         <img src="qr.webp"/>
                     </div>
                 </div>
