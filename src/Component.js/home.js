@@ -21,7 +21,7 @@ export default function Home(){
                         <button className="home-create-btn" onClick={()=>navigate("/qr/generator")}>Create your QR code now</button>
                     </div>
                     <div className="col-12 col-md-6 home-banner-image-container">
-                        <img src="qr.webp"/>
+                        <img className="img-fluid" src="qr.webp"/>
                     </div>
                 </div>
             </div>
